@@ -1,3 +1,2 @@
-
 @objc(ScanditIdEuropeDrivingLicense)
-public class ScanditIdEuropeDrivingLicense: CDVPlugin { }
+public class ScanditIdEuropeDrivingLicense: CDVPlugin {}

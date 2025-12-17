@@ -1,4 +1,4 @@
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="scandit-cordova-datacapture-id-europe-driving-license" version="7.5.2">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="scandit-cordova-datacapture-id-europe-driving-license" version="8.1.0">
     <name>ScanditIdEuropeDrivingLicense</name>
     <engines>
         <engine name="cordova-ios" version=">=5.0.0" />
@@ -15,7 +15,7 @@
         <source-file src="src/ios/ScanditIdEuropeDrivingLicense.swift" />
         <podspec>
             <pods use-frameworks="true">
-                <pod name="ScanditIdEuropeDrivingLicense" spec="= 7.5.2" />
+                <pod name="ScanditIdEuropeDrivingLicense" spec="= 8.1.0" />
             </pods>
         </podspec>
     </platform>
