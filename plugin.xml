@@ -1,4 +1,4 @@
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="scandit-cordova-datacapture-id-europe-driving-license" version="7.4.5">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="scandit-cordova-datacapture-id-europe-driving-license" version="8.2.0">
     <name>ScanditIdEuropeDrivingLicense</name>
     <engines>
         <engine name="cordova-ios" version=">=5.0.0" />
@@ -7,15 +7,15 @@
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
             <feature name="ScanditIdEuropeDrivingLicense">
-                <param name="ios-package" value="ScanditIdEuropeDrivingLicense" />
+                <param name="ios-package" value="ScanditIdEuropeDrivingLicensePlugin" />
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-        <header-file src="src/ios/ScanditIdEuropeDrivingLicense-Bridging-Header.h" type="BridgingHeader" />
-        <source-file src="src/ios/ScanditIdEuropeDrivingLicense.swift" />
+        <header-file src="src/ios/ScanditIdEuropeDrivingLicensePlugin-Bridging-Header.h" type="BridgingHeader" />
+        <source-file src="src/ios/ScanditIdEuropeDrivingLicensePlugin.swift" />
         <podspec>
             <pods use-frameworks="true">
-                <pod name="ScanditIdEuropeDrivingLicense" spec="= 7.4.5" />
+                <pod name="ScanditIdEuropeDrivingLicense" spec="= 8.2.0" />
             </pods>
         </podspec>
     </platform>
